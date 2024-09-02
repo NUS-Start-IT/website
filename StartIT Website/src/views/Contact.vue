@@ -57,6 +57,7 @@ export default {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 80px; /* Add margin to create the bump at the top */
 }
 
 .contact-us-container {

@@ -42,9 +42,10 @@
     width: 100%;
     background-color: #1e1e1e;
     padding: 50px 0;
-    display: flex;
+    display: flex;  
     justify-content: center;
     align-items: center;
+    margin-top: 80px;
   }
   
   .about-us-container {

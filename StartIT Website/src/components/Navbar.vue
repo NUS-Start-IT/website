@@ -38,25 +38,36 @@
   
   <style scoped>
   .navbar {
-    width: 100%;
-    background-color: #000;
-    display: flex;
-    justify-content: center;
-  }
-  
-  .navbar-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    max-width: 1200px;
-    padding: 20px 50px;
-  }
-  
-  .logo img {
-    width: 100px;
-  }
-  
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60px; /* Reduced height */
+  z-index: 1000;
+  background-color: #000; /* or whatever your navbar background color is */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Optional: add a shadow for better visibility */
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  padding: 10px 30px; /* Reduced padding */
+}
+
+.logo img {
+  width: 100px; /* Adjust logo size if needed */
+  margin-left: 75px;
+}
+
+nav ul li a {
+  font-size: 14px; /* Adjust font size if needed */
+  padding: 5px 10px; /* Adjust link padding if needed */
+}
+
+
   nav ul {
     list-style: none;
     display: flex;
@@ -66,6 +77,7 @@
   
   nav ul li {
     margin: 0 20px;
+    margin-bottom: 20px;
   }
   
   nav ul li a {
@@ -74,6 +86,7 @@
     font-size: 16px;
     font-family: 'Poppins', sans-serif;
     text-align: center;
+    margin-bottom: -20px;
   }
   
   nav ul li a.active {
@@ -86,5 +99,7 @@
     justify-content: center;
     align-items: center;
   }
+
+  
   </style>
   
