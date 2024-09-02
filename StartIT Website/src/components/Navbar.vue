@@ -2,7 +2,11 @@
     <header class="navbar">
       <div class="navbar-container">
         <div class="logo">
-          <img src="@/assets/logo.png" alt="StartIT Logo">
+          <router-link
+            :to="{ name: 'Home' }">
+            <img src="@/assets/logo.png" alt="StartIT Logo">
+          </router-link>
+
         </div>
         <nav>
           <ul>
@@ -42,7 +46,7 @@
   top: 0;
   left: 0;
   width: 100%;
-  height: 60px; /* Reduced height */
+  height: 80px; /* Reduced height */
   z-index: 1000;
   background-color: #000; /* or whatever your navbar background color is */
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Optional: add a shadow for better visibility */
@@ -53,7 +57,8 @@
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  max-width: 1200px;
+  /* max-width: 1200px; */
+  max-width: 90%;
   padding: 10px 30px; /* Reduced padding */
 }
 

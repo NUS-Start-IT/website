@@ -64,7 +64,8 @@ export default {
   display: flex;
   align-items: center;
   max-width: 1200px;
-  padding: 50px;
+  padding-top: 80px;
+  padding-bottom: 45px;
   z-index: 2; /* Ensure content is above the raindrops */
 }
 

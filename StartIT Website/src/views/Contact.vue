@@ -103,6 +103,7 @@ export default {
 }
 
 .icon {
+  padding-left: 25px;
   font-size: 24px;
   color: #f39c12;
   margin-right: 15px;
@@ -110,6 +111,7 @@ export default {
 
 .contact-info {
   display: flex;
+  align-items: center;
   flex-direction: column;
 }
 
