@@ -166,6 +166,54 @@ export default {
   color: #b0b0b0;
   font-family: 'Poppins', sans-serif;
   font-size: 16px;
-  margin: 0;
+  margin: 
+  0;
+}
+
+/* .about-us-title p {
+  text-align: justify;
+  margin: 10px 0;
+  line-height: 1.6;
+
+} */
+
+.about-us-title p {
+  text-align: center; /* Aligns text to the left, removing the uneven spacing */
+  margin: 10px 0; /* Maintain uniform margins */
+  line-height: 1.6; /* Consistent line spacing for readability */
+}
+
+
+/* Mobile-specific styles */
+@media (max-width: 768px) {
+  .contact-us-title {
+    top: -20px;
+    padding: 8px 16px;
+    font-size: 20px;
+    margin-bottom: 0px;
+  }
+
+  .contact-options {
+    margin-top: 60px;
+  }
+
+  .contact-option {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 15px;
+  }
+
+  .icon {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .contact-info strong {
+    font-size: 16px;
+  }
+
+  .contact-info p a {
+    font-size: 14px;
+  }
 }
 </style>

@@ -731,4 +731,60 @@ export default {
   }
 }
 
+@media (max-width: 768px) {
+
+.home {
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  font-family: 'Poppins', sans-serif;
+}
+
+.home-content {
+  position: relative;
+  display: flex;
+  flex-direction: column; /* Stack items vertically on mobile */
+  align-items: center;
+  max-width: 1200px;
+  padding: 20px;
+  z-index: 2; /* Ensure content is above the raindrops */
+}
+
+.home-text {
+  text-align: center; /* Center align text on mobile */
+  color: #fff;
+  padding: 10px;
+}
+
+.home-text h1 {
+  font-size: 36px; /* Smaller font size for mobile */
+  margin: 10px 0;
+  color: #f39c12;
+}
+
+.home-text h2 {
+  font-size: 18px;
+  margin: 10px 0;
+  color: #e0e0e0;
+}
+
+.home-text p {
+  font-size: 16px;
+  color: #b0b0b0;
+}
+
+.home-image {
+  margin-top: 20px;
+  text-align: center; /* Center image on mobile */
+}
+
+.home-image img {
+  width: 60%; /* Adjust image size for mobile */
+  height: auto;
+  margin-left: 20px;
+} 
+}
+
 </style>

@@ -93,7 +93,7 @@ export default {
 }
 
 .initiatives-content {
-  padding: 40px 20px;
+  padding: 0px 20px;
   text-align: center;
   max-height: flex;
 }
@@ -130,11 +130,21 @@ export default {
 .carousel__slide {
   padding: 10px;
   max-height: 1000px;
+  color: white;
 }
 
 .carousel__prev,
 .carousel__next {
   box-sizing: content-box;
   border: 5px solid white;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .initiatives-title {
+    top: -20px;
+    padding: 8px 16px;
+    font-size: 20px;
+  }
 }
 </style>

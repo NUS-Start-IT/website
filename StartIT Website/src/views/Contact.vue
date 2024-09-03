@@ -1,3 +1,4 @@
+
 <template>
   <section class="contact-us-section">
     <div class="contact-us-container">
@@ -57,7 +58,6 @@ export default {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 80px; /* Add margin to create the bump at the top */
 }
 
 .contact-us-container {
@@ -103,7 +103,6 @@ export default {
 }
 
 .icon {
-  padding-left: 25px;
   font-size: 24px;
   color: #f39c12;
   margin-right: 15px;
@@ -111,7 +110,6 @@ export default {
 
 .contact-info {
   display: flex;
-  align-items: center;
   flex-direction: column;
 }
 
@@ -130,5 +128,38 @@ export default {
 
 .contact-info p a:hover {
   color: #f39c12;
+}
+
+/* Mobile-specific styles */
+@media (max-width: 768px) {
+  .contact-us-title {
+    top: -20px;
+    padding: 8px 16px;
+    font-size: 20px;
+    margin-bottom: 0px;
+  }
+
+  .contact-options {
+    margin-top: 60px;
+  }
+
+  .contact-option {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 15px;
+  }
+
+  .icon {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .contact-info strong {
+    font-size: 16px;
+  }
+
+  .contact-info p a {
+    font-size: 14px;
+  }
 }
 </style>

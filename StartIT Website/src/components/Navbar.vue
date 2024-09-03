@@ -105,6 +105,31 @@ nav ul li a {
     align-items: center;
   }
 
+  @media (max-width: 768px) {
+    .navbar-container {
+      padding: 20px;
+      font-size: 10px;
+    }
+
+    nav ul li {
+    margin: 0 0px;
+  }
+
+    nav ul li a {
+      text-decoration: none;
+      color: gray; /* Default color */
+      font-size: 16px;
+    }
+
+    .logo img {
+      width: 100px; /* Adjust logo size if needed */
+      margin-left: 12px;
+    }
+
+
+  }
+
+
   
   </style>
   
