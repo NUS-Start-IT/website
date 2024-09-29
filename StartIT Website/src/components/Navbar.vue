@@ -36,7 +36,7 @@
   
   <script>
   export default {
-    name: 'NavbarComponent',
+    name: 'Navbar',
   }
   </script>
   
@@ -69,7 +69,7 @@
 
 nav ul li a {
   font-size: 14px; /* Adjust font size if needed */
-  padding: 5px 5px; /* Adjust link padding if needed */
+  padding: 5px 10px; /* Adjust link padding if needed */
 }
 
 
